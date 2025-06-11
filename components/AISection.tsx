@@ -154,7 +154,7 @@ export default function AiSection() {
             </h2>
 
             <div className="w-full">
-              <div className="hidden lg:grid grid-cols-10 grid-rows-10 gap-6 h-[700px] ">
+              <div className="hidden lg:grid grid-cols-10 grid-rows-10 gap-6 h-[720px] ">
                 {aiFeatures.map((feature, index) => (
                   <div
                     key={feature.id}
