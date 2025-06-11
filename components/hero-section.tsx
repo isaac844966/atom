@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { scrollToSection } from "./navbar";
 import { useRouter } from "next/navigation";
 
 export default function HeroSection() {
@@ -36,7 +35,6 @@ export default function HeroSection() {
             </Button>
             <Button
               size="lg"
-              onClick={() => scrollToSection("contact")}
               className="px-8 py-3 text-base bg-[#1AA9B9] hover:bg-teal-600 text-white"
             >
               Let's Talk

@@ -49,7 +49,6 @@ export function ServicesSection() {
   return (
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4 lg:px-8">
-        {/* Header */}
         <div className="mb-12 lg:mb-16">
           <h2 className="text-sm font-semibold text-[#1AA9B9] uppercase tracking-wide mb-4">
             Services

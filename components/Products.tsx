@@ -13,15 +13,15 @@ if (typeof window !== "undefined") {
 const products = [
   {
     title: "Handyman",
-    image: "/images/handyman.png",
+    image: "/handyman.png",
   },
   {
     title: "Delygen Ai",
-    image: "/images/delygen-ai.png",
+    image: "/delygen-ai.png",
   },
   {
     title: "Atom Group",
-    image: "/images/atom-group.jpeg",
+    image: "/atom-group.jpeg",
   },
 ];
 
