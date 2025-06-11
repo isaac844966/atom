@@ -24,28 +24,28 @@ const aiFeatures = [
   },
   {
     id: 2,
-    icon: <SettingsIcon className="w-8 h-8 text-[#1AA9B9]" />,
+    icon: <SettingsIcon className="w-6 h-6 text-[#1AA9B9]" />,
     description:
       "AI analyzes huge amounts of data in seconds, helping businesses make faster, smarter decisions.",
     gridArea: "5 / 5 / 3 / 10",
   },
   {
     id: 3,
-    icon: <DocumentIcon className="w-8 h-8 text-[#1AA9B9]" />,
+    icon: <DocumentIcon className="w-6 h-6 text-[#1AA9B9]" />,
     description:
       "From your smartphone keyboard to Netflix recommendations — AI is behind many tools you use daily.",
     gridArea: "7 / 7 / 5 / 1",
   },
   {
     id: 4,
-    icon: <MailIcon className="w-8 h-8 text-[#1AA9B9]" />,
+    icon: <MailIcon className="w-6 h-6 text-[#1AA9B9]" />,
     description:
       "AI isn’t one-size-fits-all — businesses can build tailored models that solve their specific challenges.",
     gridArea: "5 / 7 / 8 / 10",
   },
   {
     id: 5,
-    icon: <GearIcon className="w-8 h-8 text-[#1AA9B9]" />,
+    icon: <GearIcon className="w-6 h-6 text-[#1AA9B9]" />,
     description:
       "AI is revolutionizing healthcare, finance, education, agriculture, and beyond.",
     gridArea: "10 / 4 / 7 / 7",
@@ -131,14 +131,13 @@ export default function AiSection() {
     <section ref={sectionRef} className="py-20 px-6 md:px-12 lg:px-6 bg-white">
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-0  items-start">
-          {/* Left side - Icons */}
           <div
             ref={iconsRef}
             className="lg:w-1/3 flex justify-center lg:justify-start mx-auto"
           >
             <div className="relative w-[300px] h-[200px]">
               <Image
-                src="/images/Group 14.svg"
+                src="/Group 14.svg"
                 alt="AI Illustration"
                 fill
                 className="object-contain"
@@ -155,7 +154,7 @@ export default function AiSection() {
             </h2>
 
             <div className="w-full">
-              <div className="hidden lg:grid grid-cols-10 grid-rows-10 gap-6 h-[680px] ">
+              <div className="hidden lg:grid grid-cols-10 grid-rows-10 gap-6 h-[700px] ">
                 {aiFeatures.map((feature, index) => (
                   <div
                     key={feature.id}
@@ -163,11 +162,11 @@ export default function AiSection() {
                     className="bg-[#FAFAFA] rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 flex flex-col"
                     style={{ gridArea: feature.gridArea }}
                   >
-                    <div className="mb-2 rounded-lg w-fit shadow-sm">
+                    <div className=" mb-1 rounded-lg w-fit shadow-sm">
                       {feature.icon}
                     </div>
                     <div className="flex-1">
-                      <p className="text-gray-800 text-sm leading-relaxed">
+                      <p className="text-gray-800 text-sm ">
                         <span className="text-gray-700 text-xs">
                           {feature.description}
                         </span>
